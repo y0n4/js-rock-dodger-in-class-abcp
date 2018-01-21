@@ -100,6 +100,9 @@ function moveDodger(e) {
 function moveDodgerLeft() {
   //++ right
   //-- left
+  //remove 4px from the currentl dodger left =- 4px
+  //replace value of new pixel placement
+  
   
   
   
