@@ -98,6 +98,7 @@ function moveDodgerLeft() {
   //remove 4px from the currentl dodger left =- 4px
   //replace value of new pixel placement
   
+  var myPosition = $('#dodger').style.left
   
   
   
