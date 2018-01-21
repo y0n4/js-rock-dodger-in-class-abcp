@@ -101,7 +101,7 @@ function moveDodgerLeft() {
   var myPositionInPixels = $('#dodger').style.left;
   var myPositionInNum = positionToInteger(myPositionInPixels);
   var newPosition = myPositionInNum - 4;
-  $('dodger').style.left
+  $('dodger').style.left = newPosition;
   
   
   
