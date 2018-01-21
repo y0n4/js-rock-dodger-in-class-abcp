@@ -84,11 +84,6 @@ function moveDodger(e) {
     moveDodgerRight();
   }
   
-  
-  
-  
-  
-  
   // const code = e.which
 
   // if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
