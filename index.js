@@ -98,7 +98,7 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  //++ RIGHT_ARROW
+  //++ right
   //-- left
   
   
