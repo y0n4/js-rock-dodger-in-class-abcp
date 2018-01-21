@@ -89,15 +89,6 @@ function moveDodger(e) {
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
   // const code = e.which
 
   // if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
@@ -107,7 +98,8 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  
+  //++ RIGHT_ARROW
+  //-- left
   
   
   
