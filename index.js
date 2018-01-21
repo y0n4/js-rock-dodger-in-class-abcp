@@ -74,45 +74,45 @@ function endGame() {
   return alert('YOU LOSE!')
 }
 
-function moveDodger(e) {
-  e.preventDefault();
-  e.stopPropagation();
+// function moveDodger(e) {
+//   e.preventDefault();
+//   e.stopPropagation();
   
-  if (e.which === 37){
-    moveDodgerLeft();
-  } else if (e.which === 39){
-    moveDodgerRight();
-  }
-  
-  
+//   if (e.which === 37){
+//     moveDodgerLeft();
+//   } else if (e.which === 39){
+//     moveDodgerRight();
+//   }
   
   
   
   
-  // const code = e.which
+  
+  
+//   // const code = e.which
 
-  // if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
-  //   e.preventDefault()
-  //   e.stopPropagation()
-  // }
-}
+//   // if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
+//   //   e.preventDefault()
+//   //   e.stopPropagation()
+//   // }
+// }
 
-function moveDodgerLeft() {
-  //++ right
-  //-- left
+// function moveDodgerLeft() {
+//   //++ right
+//   //-- left
   
   
   
-  // window.requestAnimationFrame(function() {
-  //   const left = positionToInteger(DODGER.style.left)
+//   // window.requestAnimationFrame(function() {
+//   //   const left = positionToInteger(DODGER.style.left)
 
-  //   if (left > 0) {
-  //     DODGER.style.left = `${left - 4}px`;
-  //   }
-  // })
-}
+//   //   if (left > 0) {
+//   //     DODGER.style.left = `${left - 4}px`;
+//   //   }
+//   // })
+// }
 
-function moveDodgerRight() {
+// function moveDodgerRight() {
   
   
   
