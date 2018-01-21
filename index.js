@@ -113,6 +113,33 @@ function endGame() {
 // }
 
 // function moveDodgerRight() {
+
+function moveDodger(e) {
+ e.preventDefault();
+ e.stopPropagation();
+ //if the key is the right arrow key, move the doger to the right
+ //if the key is the left arrow key, move the dodger to the left
+ //Otherwise, do nothing.
+ if (e.which === 37){ //checks if left
+   moveDodgerLeft();
+ } else if( e.which === 39){//checks if right
+   moveDodgerRight();
+ }
+
+}
+
+function moveDodgerLeft() {
+ var curPos = $("#dodger").style.left
+ $("#dodger").style.left = positionToInteger(curPos) - 4;
+}
+
+function moveDodgerRight() {
+ var myPosition = $("#dodger").style.left
+ $("#dodger").style.left = positionToInteger(myPosition) + 4;
+}
+
+
+Message @Kayo26
   
   
   
